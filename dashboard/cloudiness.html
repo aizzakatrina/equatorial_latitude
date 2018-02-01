@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Equatorial Latitude</title>
-    <link rel="stylesheet" href="dashboard/stylesheet.css">
+    <title>Equatorial Latitude - Cloudiness</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
@@ -22,7 +22,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <a class="navbar-brand navbar-a" href="index.html">Equatorial Latitude</a>
+              <a class="navbar-brand navbar-a" href="../index.html">Equatorial Latitude</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
@@ -32,14 +32,14 @@
                       <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a href="dashboard/maxtemp.html">Max Temperature</a></li>
-                      <li><a href="dashboard/humidity.html">Humidity</a></li>
-                      <li><a href="dashboard/cloudiness.html">Cloudiness</a></li>
-                      <li><a href="dashboard/windspeed.html">Wind Speed</a></li>
+                      <li><a href="maxtemp.html">Max Temperature</a></li>
+                      <li><a href="humidity.html">Humidity</a></li>
+                      <li><a href="cloudiness.html">Cloudiness</a></li>
+                      <li><a href="windspeed.html">Wind Speed</a></li>
                     </ul>
                   </li>
-                  <li><a href="dashboard/comparison.html">Comparison</a></li>
-                  <li><a href="dashboard/data.html">Data</a></li>
+                  <li><a href="comparison.html">Comparison</a></li>
+                  <li><a href="data.html">Data</a></li>
                   <li><a href="https://github.com/aizzakatrina/equatorial_latitude/blob/master/main.ipynb" target="_new-win">Code</a></li>
               </ul>
           </div>    
@@ -50,12 +50,12 @@
       <div class="row">
         <div class="col-sm-12 col-md-8">
           <div class="box-2">
-          <h2 class="h2-a">Summary: Latitude vs X</h2>
+          <h2 class="h2-a">Cloudiness</h2>
           <hr>
           <p class="p">
-            An analysis of the weather as we approach the equator, using Python requests, OpenWeatherMap API, JSON, 
-            Pandas, and Matplotlib to visualize the weather of 500+ random cities across the world of varying 
-            distance from the equator.
+              <center>
+                  <img src="../results/cloudiness.png" alt="Cloudiness" class="current-plot">
+              </center>
           </p>
           </div>
         </div>
@@ -63,10 +63,10 @@
           <div class="box-2">
           <h2 class="h2-a">Visualizations</h2>
           <hr>
-            <a href="dashboard/maxtemp.html"><img src="results/maxtemp.png" class="thumbnail-a" alt="Max Temperature"></a> 
-            <a href="dashboard/humidity.html"><img src="results/humidity.png" class="thumbnail-a" alt="Humidity"></a> 
-            <a href="dashboard/cloudiness.html"><img src="results/cloudiness.png" class="thumbnail-a" alt="Cloudiness"></a> 
-            <a href="dashboard/windspeed.html"><img src="results/windspeed.png" class="thumbnail-a" alt="Windspeed"></a> 
+            <a href="maxtemp.html"><img src="../results/maxtemp.png" class="thumbnail-a" alt="Max Temperature"></a> 
+            <a href="humidity.html"><img src="../results/humidity.png" class="thumbnail-a" alt="Humidity"></a> 
+            <a href="cloudiness.html"><img src="../results/cloudiness.png" class="thumbnail-a active" alt="Cloudiness"></a> 
+            <a href="windspeed.html"><img src="../results/windspeed.png" class="thumbnail-a" alt="Windspeed"></a> 
           </div>
         </div>
       </div>

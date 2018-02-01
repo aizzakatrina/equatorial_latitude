@@ -1,0 +1,109 @@
+body { 
+    padding-top: 70px; 
+    padding-bottom: 20px;
+}
+
+.body-a {
+    background-color: #f2f2f2;
+    margin-left: auto;
+}
+
+.nav-fixed-a {
+    background-color: white;
+}
+
+.navbar-a {
+    background-color: #33cccc;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.h2-a {
+    color: #33cccc;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.thumbnail-a {
+    padding: 5px;
+    width: 150px;
+}
+
+.active {
+    padding:2px;
+    border:2px solid #33cccc;
+}
+
+.current-plot {
+    width: 600px;
+}
+
+.compare-img {
+    width: 80%;
+}
+
+.compare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box-1 {
+    display: inline-block;
+}
+
+.box-2 {
+    padding: 2em;
+    background-color: white;    
+}
+
+.p {
+    color: slategray;
+}
+
+.navbar-brand{
+    color:#777;
+}
+
+.row-compare {
+    padding-top: 36px;
+}
+
+.inner-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.hr {
+    display: none;
+}
+
+.minimized {
+    padding-top: 0px;
+}
+
+@media (max-width:991px){
+    .nav-fixed-a {
+        background-color: #33cccc;
+    }
+
+    .inner-container {
+        width: 75%;
+    }
+
+    .hr {
+        display: block;
+    }
+
+    .row-compare {
+        padding-top: 0px;
+    }
+
+    .minimized {
+        padding-top: 20px;
+    }
+}
