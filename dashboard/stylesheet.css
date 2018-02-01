@@ -24,6 +24,14 @@ body {
     font-weight: bold;
 }
 
+tr:hover {
+    background-color: #33cccc;
+}
+
+.header-row {
+    background-color: #33cccc;
+}
+
 .thumbnail-a {
     padding: 5px;
     width: 150px;
