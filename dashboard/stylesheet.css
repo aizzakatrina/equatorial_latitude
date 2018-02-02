@@ -24,10 +24,6 @@ body {
     font-weight: bold;
 }
 
-tr:hover {
-    background-color: #33cccc;
-}
-
 .header-row {
     background-color: #33cccc;
 }
