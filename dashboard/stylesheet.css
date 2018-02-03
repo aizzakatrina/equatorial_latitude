@@ -82,6 +82,11 @@ body {
     padding-right: auto;
 }
 
+.icon {
+    padding: 5px;
+    width: 90px;
+}
+
 .hr {
     display: none;
 }
