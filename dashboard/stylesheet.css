@@ -39,7 +39,7 @@ body {
 }
 
 .current-plot {
-    width: 600px;
+    width: 100%;
 }
 
 .compare-img {
