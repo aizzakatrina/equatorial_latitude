@@ -9,11 +9,15 @@ body {
 }
 
 .nav-fixed-a {
-    background-color: white;
+    background-color: #777;
+}
+
+.navbar-brand{
+    color: #33cccc;
 }
 
 .navbar-a {
-    background-color: #33cccc;
+    background-color: #777;
     font-family: Georgia;
     font-weight: bold;
 }
@@ -30,7 +34,7 @@ body {
 
 .thumbnail-a {
     padding: 5px;
-    width: 150px;
+    width: 45%;
 }
 
 .active {
@@ -66,10 +70,6 @@ body {
     color: slategray;
 }
 
-.navbar-brand{
-    color:#777;
-}
-
 .row-compare {
     padding-top: 36px;
 }
@@ -95,11 +95,7 @@ body {
     padding-top: 0px;
 }
 
-@media (max-width:991px){
-    .nav-fixed-a {
-        background-color: #33cccc;
-    }
-
+@media (max-width:991px){ 
     .inner-container {
         width: 75%;
     }
