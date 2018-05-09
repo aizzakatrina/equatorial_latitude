@@ -17,6 +17,11 @@ body {
     color: #33cccc;
 }
 
+.nav-link{
+    color: #33cccc;
+    font-size: 1em;
+}
+
 .navbar-a {
     background-color: #777;
     font-family: Georgia;
@@ -71,7 +76,6 @@ body {
 }
 
 .box-2 {
-    padding: 2em;
     background-color: white;    
     display: inline-block;
     text-align: center;
