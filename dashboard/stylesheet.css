@@ -6,6 +6,7 @@ body {
 .body-a {
     background-color: #f2f2f2;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-fixed-a {
@@ -47,7 +48,7 @@ body {
 }
 
 .compare-img {
-    width: 80%;
+    width: 100%;
 }
 
 .compare {
@@ -57,13 +58,23 @@ body {
     text-align: center;
 }
 
+.box-0 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .box-1 {
+    padding: 2em;
+    background-color: white;    
     display: inline-block;
 }
 
 .box-2 {
     padding: 2em;
     background-color: white;    
+    display: inline-block;
+    text-align: center;
 }
 
 .p {
@@ -110,5 +121,10 @@ body {
 
     .minimized {
         padding-top: 20px;
+    }
+
+    .thumbnail-a {
+        padding: 5px;
+        width: 60%;
     }
 }
